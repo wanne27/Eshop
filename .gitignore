@@ -1,0 +1,43 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.suo
+*.sln.docstates
+*.vs/
+.vscode/
+
+# ASP.NET
+appsettings*.json
+appsettings.Development.json
+appsettings.Production.json
+**/Migrations/*.cs
+**/Migrations/*.Designer.cs
+**/Migrations/*.sql
+**/Migrations/*.dll
+**/Migrations/*.pdb
+
+# Visual Studio Code
+.history/
+.vscode/
+*.code-workspace
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+dist/
+build/
+
+# Docker
+*.dockerfile
+*.dockspec
+docker-compose.override.yml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?

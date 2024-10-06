@@ -1,0 +1,77 @@
+.login-container, .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .login-box, .register-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-input, .register-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .login-button, .register-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .login-button:hover, .register-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register-prompt, .error-message {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .register-link {
+    color: #007bff;
+  }
+  
+  .register-link:hover {
+    text-decoration: underline;
+  }
+  
+  .password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .show-password-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: -20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
