@@ -7,16 +7,6 @@ obj/
 *.vs/
 .vscode/
 
-# ASP.NET
-appsettings*.json
-appsettings.Development.json
-appsettings.Production.json
-**/Migrations/*.cs
-**/Migrations/*.Designer.cs
-**/Migrations/*.sql
-**/Migrations/*.dll
-**/Migrations/*.pdb
-
 # Visual Studio Code
 .history/
 .vscode/
